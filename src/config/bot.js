@@ -1,5 +1,6 @@
 import { logger } from '../utils/logger.js';
 
+
 export const botConfig = {
   // =========================
   // BOT PRESENCE (what users see under the bot name)
@@ -29,16 +30,6 @@ export const botConfig = {
       },
     ],
   },
-
-   activities: [
-      {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "the hub",     // this is what people actually see
-        type: 3,               // Custom
-      },
-    ],
-  },
-
 
   // =========================
   // COMMAND BEHAVIOR
